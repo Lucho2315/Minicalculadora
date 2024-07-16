@@ -1,0 +1,14 @@
+/* estilos para la calculadora*/
+#calculadora{
+                background: gray;
+                border: 0;
+}
+#calculadora.td{
+    padding: 4px;
+}
+.cajavalor{
+    background-color: #acff38;
+}
+.boton{
+    
+}
