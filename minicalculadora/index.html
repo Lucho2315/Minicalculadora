@@ -8,19 +8,77 @@
 <body>
     <table id="Calculadora"> 
         <tr>
-            <td>
-                <input type="button" value="7" num="7" id="7">
-            </td>    
-                <input type="button" value="8" num="8" id="8">
-            </td>
-                <input type="button" value="9" num="7" id="7">
-            </td>    
-                <input type="button" value="97" num="7" id="7">
-            </td>
-            
-            </td>
-        </tr>
-
-    </table>
-</body>
-</html>
+            <td colspan="4">								
+                <input type="text"  name="valor_numero" id="valor_numero" value="0" readonly="true" class="caja_valor">								
+            </td>								
+        </tr>								
+        <tr>								
+            <td colspan="2">								
+                <input type="button" value="exp" name="potencia" id="potencia" class="boton_largo funcion" onclick="operar(5)">								
+            </td>								
+            <td>								
+                <input type="button" value="/" name="Dividir" id="Dividir" class="boton funcion" onclick="operar(4)">								
+            </td>								
+            <td>								
+                <input type="button" value="x" name="Restar" id="Restar" class="boton funcion" onclick="operar(3)">								
+            </td>								
+        </tr>								
+        <tr>								
+            <td>								
+                <input type="button" value="7" name="7" id="7" class="boton" onclick="darNumero('7')">								
+            </td>								
+            <td>								
+                <input type="button" value="8" name="8" id="8" class="boton" onclick="darNumero('8')">								
+            </td>								
+            <td>								
+                <input type="button" value="9" name="9" id="9" class="boton" onclick="darNumero('9')">								
+            </td>								
+            <td>								
+                <input type="button" value="-" name="Restar" id="Restar" class="boton funcion" onclick="operar(2)">								
+            </td>								
+        </tr>								
+        <tr>								
+            <td>								
+                <input type="button" value="4" name="4" id="4" class="boton" onclick="darNumero('4')">								
+            </td>								
+            <td>								
+                <input type="button" value="5" name="5" id="5" class="boton" onclick="darNumero('5')">								
+            </td>								
+            <td>								
+                <input type="button" value="6" name="6" id="6" class="boton" onclick="darNumero('6')">								
+            </td>								
+            <td>								
+                <input type="button" value="+" name="Sumar" id="Sumar" class="boton funcion" onclick="operar(1)">								
+            </td>								
+        </tr>								
+        <tr>								
+            <td>								
+                <input type="button" value="1" name="1" id="1" class="boton" onclick="darNumero('1')">								
+            </td>								
+            <td>								
+                <input type="button" value="2" name="2" id="2" class="boton" onclick="darNumero('2')">								
+            </td>								
+            <td>								
+                <input type="button" value="3" name="3" id="3" class="boton" onclick="darNumero('3')">								
+            </td>								
+            <td>								
+                <input type="button" value="=" name="igual" id="igual" class="boton funcion" onclick="esIgual()">								
+            </td>								
+        </tr>								
+        <tr>								
+            <td colspan="2">								
+                <input type="button" value="0" name="0" id="0" class="boton_largo" onclick="darNumero('0')">								
+            </td>								
+            <td>								
+                <input type="button" value="," name="," id="," class="boton">								
+            </td>								
+            <td>								
+                <input type="button" value="C" name="C" id="C" class="boton funcion" onclick="darC()">								
+            </td>								
+        </tr>								
+								
+    </table>								
+								
+    <script src="js/scripts.js"></script>								
+</body>								
+</html>								
