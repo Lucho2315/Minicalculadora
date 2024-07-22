@@ -1,9 +1,8 @@
-//* scripts para la calculadora */
-
+/* scripts para la calculadora */
 //Declaracion de variables
 let num1 = 0;
 let num2 = 0;
-let opera = '';
+let opera ='';
 
 function darNumero(numero){
     if(num1 == 0 ){

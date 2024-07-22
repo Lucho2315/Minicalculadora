@@ -10,9 +10,10 @@
     background-color: #acff38;
     color: #467702;
     border: 1px solid #454545;
-    width: 110px;
+    width: 130px;
     height: 26px;
     font-size: 20px;
+    line-height: 26px;
     text-align: right;
 }
 .boton{
@@ -20,7 +21,7 @@
     border: 1px solid #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    background: #fff;
+    background-color: #fff;
 }
 .boton_largo{
     width: 62px;
